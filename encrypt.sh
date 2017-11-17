@@ -1,5 +1,4 @@
-if [ -z "$1" ]
-then
+if [ -z "$1" ] ; then
   echo "No argument supplied. Provide path to file to be encrypted."
   echo "Example usage: ./encrypt.sh ./path/to_file.txt"
   exit 1
